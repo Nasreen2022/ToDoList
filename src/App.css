@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(209, 244, 244)
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: rgb(78, 168, 78);
+    font-weight: bold;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .task-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 50rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+  
+  .task-input select {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+  
+  .task-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 6rem;
+    background-color:rgb(182, 243, 182);
+  }
+  .task-input button:hover{
+    background-color: rgb(90, 183, 90);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+  .taskBtn{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 5rem;
+    background-color:rgb(237, 132, 132);
+  }
+  .taskBtn:hover{
+    background-color: rgb(224, 70, 70);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .task.low {
+    background-color: #e0f7fa;
+  }
+  
+  .task.medium {
+    background-color: #fff9c4;
+  }
+  
+  .task.high {
+    background-color: #ffcdd2;
+  }
+  
+  .weather-display {
+    margin-top: 20px;
+  }
+  
+  .authentication {
+    margin-bottom: 20px;
+  }
+  .authBtn{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border:2px solid  rgb(193, 225, 193);
+    font-size: 15px;
+  }
+  .authBtn:hover{
+    background-color: rgb(140, 240, 140);
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  
